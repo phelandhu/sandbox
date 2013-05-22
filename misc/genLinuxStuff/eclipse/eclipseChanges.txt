@@ -1,0 +1,18 @@
+To include a php template for new file:
+1. Open the 'Window' menu
+2. Select 'Preferences'
+3. Then open 'PHP'->'Code Style'->'Code Templates'
+4. Open 'Code' and select 'Simple PHP file'
+5. Click 'Edit...' on the right
+6. Replace the existing with:
+<?php
+// ${file}
+/***********************************************
+* Created:            ${date} ${time}
+* Last Modified:      ${date} ${time}
+*
+* [LEFT BLANK FOR PROGRAM DESCRIPTION]
+*
+* Mike Browne - mbrowne@cantorgaming.com
+***********************************************/
+${cursor}

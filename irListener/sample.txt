@@ -1,0 +1,7 @@
+#
+# Test file
+#
+
+port=com1
+speed=9600
+stop=8 N 1

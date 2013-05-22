@@ -1,0 +1,37 @@
+#! /bin/bash
+#
+# icecast service control   
+#
+# chkconfig: 345 85 15
+# description: Activates/Deactivates icecast
+#
+### BEGIN INIT INFO
+# Provides: <your info>
+# Should-Start: <your info>
+# Short-Description: <your info>
+# Description: <your info>
+### END INIT INFO
+
+# Source function library.
+. /etc/init.d/functions
+
+# local
+. /$HOME
+
+# See how we were called.
+case "$1" in
+  start)
+    echo "the script UP "
+    icecast -b -c /etc/icecast.xml 
+    ;;
+  stop)
+    echo "the script DOWN"
+    # this is an exmaple
+    pkill icecast
+    ;;
+  *)
+    echo "Usage: /etc/init.d/icecastd {start|stop}"
+    exit 1
+    ;;
+esac
+exit 0
