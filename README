@@ -1,0 +1,16 @@
+Dir:			Description:
+ajaxTrial		Demonstration of an AJAX round trip
+books_n_mags	Demo code from Books and Magazines
+BT/
+cg-bin/
+dlf				Directory Listing File - a code base I downloaded
+irListener/		
+misc			Miscellaneous stuff that doesn't fit anywhere else
+namespaces/
+shell/
+simpletodo/
+simpletodo_api/
+source			General source code that may fit work with other stuff
+test			A test directory for anything that is goin on
+trial/
+tutorials/

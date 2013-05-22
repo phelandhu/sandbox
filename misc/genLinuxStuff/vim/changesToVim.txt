@@ -1,0 +1,18 @@
+To add templates into vim and have it setup so that when you create a new file with an extesion it uses the template for the file:
+you first need to create the templates and place them in a location.
+Since I want them to be found by Vim, but not messed with on a general basis, I create a directory named .templates, with the period it is not seen in a general ls
+I then create my template file in that directory, the .vimrc file in the home directory needs to be modified, if it doesn't exist cread it.
+Add the following lines for the templates, this tells vim that if you create a file ending in .c to use template.c in the .templates directory, so on.
+au BufNewFile *.c 0read ~/.templates/template.c
+au BufNewFile *.cpp 0read ~/.templates/template.cpp
+au BufNewFile *.php 0read ~/.templates/template.php
+
+Next I like being able to put the DTS whenever I need to in my source.
+The next two lines map F3 to inserting the DTS on that line at that point.
+nmap <F3> a<C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR><Esc>
+imap <F3> <C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR>
+
+Also there is a plugin out there called timestamp, find it download it, and then just put it into a directory named .vim/plugin from your home directory and then run :EnableTimestamp from within Vim.
+
+au BufWritePre *.html exe "norm mz"|exe '%s/\(<!-- DATE -->\).\{-\}\d\d:\d\d:\d\d/\1'.strftime("%b %d, %Y %X")."/e"|norm `z
+
