@@ -1,0 +1,4 @@
+#!/bin/bash
+FILENAME=/tmp/test.txt
+echo "Test" >> $FILENAME
+echo date >> $FILENAME
