@@ -1,0 +1,8 @@
+#to view the processes
+mysqladmin proc -i1 -uroot -p
+# to insert data for a specific database from a file containing multible databases
+cat   filename.sql  | mysql --one-database wagerplayer    
+or
+mysql -u root -p --one-database db_to_restore < fulldump.sql
+
+
