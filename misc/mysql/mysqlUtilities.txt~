@@ -1,1 +1,0 @@
-mysqladmin proc -i1 -uroot -p
