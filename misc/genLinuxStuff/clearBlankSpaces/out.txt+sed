@@ -1,0 +1,41 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+10.43.0.165				ServerVM
+10.43.240.41       lvcgdb-zl1 			# mysql Database
+10.43.240.42       lvcgsbadmapp-zl1 # Apache Tomcat, ActiveMQ
+10.43.240.43       lvcgadmapp-zl1 	# glassfish
+10.43.240.44       lvcgsbdmzapp-zl1 # Jetty, Apache
+10.43.240.45       lvcgsbadmweb-zl1 # php, apache
+10.43.240.46       lvcgsbbetweb-zl1 # apache
+10.43.240.47       lvcgcdb-zl1			# glassfish
+10.43.1.100	   DBServer DBServerVM
+10.43.1.101	   CSB-1-0 wagerplayer1-0 VMCSB1-0
+10.43.1.102	   CSB-2-0 wagerplayer2-0 wagerplayer VMCSB2-0
+10.43.1.103	   CSB-2-0-flop floppoker VMCSB2-0Flop Flop
+192.168.56.99	   sandbox
+192.168.56.99	   abc
+192.168.56.101	   soundwave
+
+test
+more
+
+space
