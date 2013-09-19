@@ -4,7 +4,7 @@
 * Created:            Apr 26, 2013 10:42:47 AM
 * Last Modified:      Apr 26, 2013 10:42:47 AM
 *
-* This will be an extended class with multiple debug utilities that I need in my code.
+* This will be an extended class with multiple debug utilities that I need in my code, trying to figure this monolithic stuff out.
 *
 * Mike Browne - mbrowne@cantorgaming.com
 ***********************************************/

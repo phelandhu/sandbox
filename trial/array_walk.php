@@ -4,7 +4,7 @@
 * Created:            Thu 11 Oct 2012 10:31:12 AM PDT 
 * Last Modified:      Thu 11 Oct 2012 10:31:12 AM PDT
 *
-* [LEFT BLANK FOR PROGRAM DISCRIPTION]
+* Here you'll find a simple example of a script to walk through an array and display all of the elements. 
 *
 * Mike Browne - phelandhu@gmail.com
 ***********************************************/

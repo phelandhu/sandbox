@@ -4,7 +4,7 @@
 * Created:            Thu 11 Oct 2012 10:34:58 AM PDT 
 * Last Modified:      Thu 11 Oct 2012 10:35:51 AM PDT
 *
-* [LEFT BLANK FOR PROGRAM DISCRIPTION]
+* Example code to start maintenance scripts to test to see if it is being run from cli or browser.
 *
 * Mike Browne - phelandhu@gmail.com
 ***********************************************/
